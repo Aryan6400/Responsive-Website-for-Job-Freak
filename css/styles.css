@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e2dac6;
+    background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+a{
+    color: black;
+    /* text-decoration: none; */
+}
+
+.body-container{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 5fr;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-container{
+    background-color: #f5b74c;
+    box-shadow: 0 0 10px #a58143;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 220px;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.left-container ul{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    list-style: none;
+    color: #e3e3e3;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.left-container ul li:hover{
+    text-shadow: 0 0 5px white;
+    color: rgb(193, 193, 193);
+    cursor: pointer;
+}
+
+.blank{
+    height: 100px;
+}
+
+.right-container{
+    padding: 30px 40px 0 0px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+
+/* Header and Footer */
+
+.footer{
+    margin: 80px 0 0;
+    text-align: center;
+}
+
+.footer p, .footer-icons{
+    color: #ededed;
+}
+
+.footer-icons{
+    margin: 0 10px;
+}
+
+
+/* Home Page */
+
+.home-info, .about-info{
+    margin-bottom: 35px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.home-cards{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ffe1ad;
+    border-radius: 7px;
+    box-shadow: 0 0 5px #f5b74c;
+    background-color: #f5b74c;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: rgba(59, 59, 59, 0.473);
+    width: 40%;
+}
+
+.home h1, .about h1, .contact h1, .contact h2, .work h1, .work h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* About Page */
+
+.about-items{
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 40px;
+    background-color: #f3ead6;
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+    box-shadow: 0 0 3px #aea99b;
+}
+
+.about ol{
+    padding: 10px 50px;
+}
+
+.about ol li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Work Page */
+
+.work .cards-container{
+    margin-bottom: 80px;
+}
+
+.work h2{
+    margin-top: 80px;
+}
+
+.work-cards{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ffe1ad;
+    border-radius: 7px;
+    box-shadow: 0 0 5px white;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    color: black;
+    margin: 20px 15px 10px;
+}
+
+.work-info{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+/* Contact Page */
+
+.form{
+    margin: 40px auto 80px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+form button{
+    margin-top: 15px;
+    padding: 5px;
+    width: 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5b74c;
+    color: white;
+}
+
+form label{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+form input{
+    height: 1.75rem;
+    border: 1px  black;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.contact h2{
+    margin: 80px 0 30px;
+}
+
+.team-cards{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ffe1ad;
+    border-radius: 7px;
+    box-shadow: 0 0 5px #f5b74c;
+    color: white;
+    margin: 20px 15px 10px;
+}
+
+
+.hidden{
+    display: none;
+}
